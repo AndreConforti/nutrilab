@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Cadastro</title>
+    <style>
+        .titulo{
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="titulo">Cadastro confirmado</h1>
+
+    <p>Obrigado pela confirmação do seu email, {{ nome }}</p>
+    <p>Sua conta foi criada com sucesso</p>
+    <span><a href="{{ link_ativacao|safe }}">CLIQUE AQUI</a> para ativar sua conta.</span>
+    <p>Atenciosamente,</p>
+
+    <p>André Conforti</p>
+    
+</body>
+</html>
